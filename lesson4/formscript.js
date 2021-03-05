@@ -21,7 +21,7 @@ document.querySelector('.join').onclick = function (e) {
         console.log('input is correct')
     };
     if (!phoneForm.test(phone.value)) {
-        console.log('телефон введен не корректно')
+        console.log('Телефон введен не корректно')
     } else {
         console.log('input is correct')
     };
