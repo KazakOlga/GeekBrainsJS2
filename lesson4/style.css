@@ -1,0 +1,86 @@
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px)
+}
+
+.registration {
+    display: flex
+}
+
+.registration__form {
+    margin-top: 64px;
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: column
+}
+
+.registration__form__text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-bottom: 20px
+}
+
+.registration__form__input {
+    width: 360px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-bottom: 20px;
+}
+
+.gender {
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.gender__radio {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.comment {
+    width: 360px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    margin-bottom: 39px
+}
+
+.join {
+    width: 167px;
+    height: 50px;
+    background: #F16D7F;
+    border: none;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF
+}
+
+.join:hover {
+    background: #E05C6E
+}
