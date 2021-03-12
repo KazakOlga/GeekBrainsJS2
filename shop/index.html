@@ -6,20 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <div class="header center">
         <div class="header_left">
-            <a href="index.html"><img class="header_trans" src="pictures/logo.svg" alt="logo"></a>
-            <a href=""><img class="search header_trans" src="pictures/search.svg" alt="search"></a>
+            <a href="index.html"><img class="header_trans" src="img/logo.svg" alt="logo"></a>
+            <a href=""><img class="search header_trans" src="img/search.svg" alt="search"></a>
         </div>
         <div class="header_right">
             <input id="switcher" type="checkbox">
-            <label for="switcher"><img class="header_trans" src="pictures/menu.svg" alt="menu"></label>
+            <label for="switcher"><img class="header_trans" src="img/menu.svg" alt="menu"></label>
             <nav class="drop">
                 <div class=" header__box_nav">
                     <a href="registration.html"><svg class="header__box_img" width="29" height="29" viewBox="0 0 29 29"
@@ -84,34 +82,19 @@
     <section class="catalog_header center">
         <h1 class="catalog_header_zag">SHOPPING CART </h1>
     </section>
-    <section class="cart_content center">
-        <div class="cart_content_product_inform">
-            <div class="cart_content__product">
-                <img src="pictures/cart_prod2.jpg" alt="product_photo">
-                <div class="cart_content__product_info">
-                    <div class="cc_heading">
-                        <h3 class="cart_content__heading">MANGO PEOPLE T&nbsp;-&nbsp;SHIRT</h3>
-                        <img class="krestik" src="pictures/krestik.svg" alt="">
-                    </div>
-                    <p class="cc_text">Price: <span class="color_price">$300</span> </p>
-                    <div class="ccq">
-                        <p class="cc_text">Quantity: </p>
+    <div class="cart_content_product_inform center">
 
-                    </div>
-                </div>
-            </div>
 
-        </div>
-        <div class="shop_content center">
+    </div>
+    <div class="cart-list"></div>
+    <div class="shop_content center"></div>
 
-        </div>
-        <div class="button">
-            <a class="browse_button ">Show more</a>
-        </div>
-
-        <script src="button.js"></script>
-        <script src="Ls2.js"></script>
-
+    <div class="button">
+        <a class="browse_button ">Show more</a>
+    </div>
+    <!-- <script src="js/script.js"></script> -->
+    <script src="/button.js"></script>
+    <script src="/shop.js"></script>
 </body>
 
 </html>

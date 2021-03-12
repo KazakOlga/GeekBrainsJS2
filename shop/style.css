@@ -263,21 +263,17 @@
     width: 360px;
     background: #F8F8F8;
     position: relative;
-    transition: transform 0.3s
+    transition: transform 0.3s;
+    margin-bottom: 30px;
 }
 
 .shop_block:hover {
     transform: scale(1.04)
 }
 
-.shop_block:hover .shop_img {
-    filter: brightness(50%)
-}
 
 
-.shop_block:hover .add_cart {
-    display: flex
-}
+
 
 
 .add_cart {
@@ -352,7 +348,7 @@
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 23px;
     line-height: 19px;
     color: #F26376;
     background-color: #FFFFFF;
@@ -377,4 +373,24 @@
     text-align: center;
     margin-top: 48px;
     margin-bottom: 91px;
+}
+
+.btn {
+    height: 45px;
+    width: 120px;
+    background-color: transparent;
+    border: 1px solid #FF6A6A;
+    color: #FF6A6A;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left: 122px;
+    margin-bottom: 25px;
+
+}
+
+.btn:hover {
+    background-color: #F26376;
+    color: white;
 }

@@ -1,20 +1,12 @@
 {
-  "name": "geekbrainsjs2",
+  "name": "proba",
   "version": "1.0.0",
-  "description": "GB server",
-  "main": "index.js",
+  "description": "",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node script.js"
+    "start": "node script.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KazakOlga/GeekBrainsJS2.git"
-  },
-  "author": "KazakOlga",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KazakOlga/GeekBrainsJS2/issues"
-  },
-  "homepage": "https://github.com/KazakOlga/GeekBrainsJS2#readme"
+  "author": "ol",
+  "license": "ISC"
 }
