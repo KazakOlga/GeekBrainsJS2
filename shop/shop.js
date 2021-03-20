@@ -22,7 +22,7 @@ class List {
 
     fetchGoods() {
         this.preloading = true
-        const url = `http://localhost:23600/database/items${this._page}.json`;
+        const url = `/database/items${this._page}.json`;
         return fetch(url)
             .then(res => {
                 return res.json()
