@@ -13,11 +13,11 @@ const server = http.createServer(function (req, res) {
         if (isSvg) {
             res.setHeader('Content-Type', 'image/svg+xml');
         }
-        body = fs.readFileSync(`./shop/${req.url}`)
+        body = fs.readFileSync(`./public/${req.url}`)
     } catch (err) {
-        body = fs.readFileSync('./shop/index.html')
+        body = fs.readFileSync('./public/index.html')
     }
     res.end(body);
 });
-server.listen(process.env.PORT || 23600);
+server.listen(process.env.PORT || 2600);
 console.log('Server started');
